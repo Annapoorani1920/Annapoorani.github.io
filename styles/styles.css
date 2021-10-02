@@ -1,0 +1,149 @@
+body{
+	background-color: #CCCCCC;
+	font-size: 150%;
+}
+
+p{
+	color: #501F3A;
+	padding: 5px;
+	font-family: 'Architects Daughter', cursive;
+	font-size: -10%;
+	
+}
+
+h1{
+	color: #14A098;
+	font-size: 250%;
+	text-decoration: underline;
+	padding: 8px;
+	font-family: 'Lobster',sans-serif;
+}
+
+center{
+	border-width: 20px;
+	border-style: double;
+	border-color: #501F3A;
+	margin-left: 200px;
+	margin-right: 200px;
+	padding: 30px;
+	margin-bottom: -90px;
+	font-family: 'Indie Flower',cursive;
+	font-weight: bolder;
+}
+
+#nav{
+	background-color: #CB2D6F;
+	list-style-type: none;
+	overflow: hidden;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	font-family: 'Architects Daughter';
+}
+
+#nav a,span{
+	float: left;
+	%color:#FEF9C7;
+	color: #EDEAE5;
+	padding: 15px;
+	margin: 2px;
+	font-size: 20px;
+	
+}
+
+#nav a:hover{
+	background-color: pink;
+	cursor: pointer;
+	color:  #501F3A;
+
+}
+ul li{	
+	float: left;
+	width: 74%;
+	border: dashed;
+	border-width: 2px 4px 1px 3px;
+	color: #14A098;
+	text-align: left;
+	background-color: #0F292F ;
+	font-family: 'Indie Flower',cursive;
+
+}
+
+
+#nav span:hover{
+	background-color: pink;
+	cursor: pointer;
+	color:  #501F3A;
+}
+
+.content{
+	margin-top :75px;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+}
+
+table,th,td{
+	margin-left: auto;
+	margin-right: auto;
+	border: 8px dotted #CB2D6F;
+	background-color: #0F292F;
+	color: #CCCCCC;
+
+}
+td{
+	padding: 12px;
+}
+
+img{
+	display: float;
+	float: left;
+	padding: 6px 25px 2px 4px;
+	margin-bottom: 50px;
+	margin-top: 20px;
+
+}
+
+ol #contact-list{
+	list-style-type: none;
+
+}
+div#contact-content ol li{
+	font-family: 'Indie Flower',cursive;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 120%;
+	list-style-type: none;
+
+}
+
+div#contact-content div#contactt{
+	border-width: 20px;
+	border-style: double;
+	border-color: #501F3A;
+	margin-left: 200px;
+	margin-right: 200px;
+	padding: 30px;
+
+}
+
+div#publication-content ol li{
+	color: #CB2D6F;
+
+}
+
+div#project-list li{
+	color: #CB2D6F;
+}
+
+div#about-content img{
+	display: float;
+	float: left;
+	padding: 6px 25px 2px 4px;
+	margin: 0px;
+
+}
+
+div#foot{
+	margin: 60px;
+}
