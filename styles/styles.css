@@ -67,6 +67,7 @@ ul li{
 	text-align: left;
 	background-color: #0F292F ;
 	font-family: 'Indie Flower',cursive;
+	list-style-type: disc;
 
 }
 
@@ -103,6 +104,8 @@ img{
 	margin-bottom: 4%;
 	margin-top: 2%;
 	border-radius: 19%;
+
+
 }
 
 ol #contact-list{
@@ -150,7 +153,7 @@ div#foot{
 	margin: 2%;
 }
 
-.my-game-image-1{
+.game-image-1{
 	width: 34%; 
 	height: 350px;
 }
@@ -161,17 +164,17 @@ div#foot{
 
 }
 
-.my-game-image-2{
+.game-image-2{
 	width: 34%; 
 	height: 350px;
 }
 
-.my-vertical-game{
+.vertical-game{
 	width: 20%; 
 	height: 350px;
 }
 
-.my-college-pic{
+.college-pic{
 	height: 600px;
 	width: 45%; 
 }
