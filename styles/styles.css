@@ -5,7 +5,7 @@ body{
 
 p{
 	color: #501F3A;
-	padding: 5px;
+	padding: 1%;
 	font-family: 'Architects Daughter', cursive;
 	font-size: -10%;
 	
@@ -15,7 +15,7 @@ h1{
 	color: #14A098;
 	font-size: 250%;
 	text-decoration: underline;
-	padding: 8px;
+	padding: 1%;
 	font-family: 'Lobster',sans-serif;
 }
 
@@ -23,10 +23,11 @@ center{
 	border-width: 20px;
 	border-style: double;
 	border-color: #501F3A;
-	margin-left: 200px;
-	margin-right: 200px;
-	padding: 30px;
-	margin-bottom: -90px;
+	margin-left: 12%;
+	margin-right: 12%;
+	padding: 5%;
+	margin-bottom: -5%;
+	margin-top: -1%;
 	font-family: 'Indie Flower',cursive;
 	font-weight: bolder;
 }
@@ -45,9 +46,9 @@ center{
 	float: left;
 	%color:#FEF9C7;
 	color: #EDEAE5;
-	padding: 15px;
-	margin: 2px;
-	font-size: 20px;
+	padding: 1%;
+	margin: 0.25%;
+	font-size: 100%;
 	
 }
 
@@ -77,9 +78,9 @@ ul li{
 }
 
 .content{
-	margin-top :75px;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-top :5%;
+	margin-left: 2%;
+	margin-right: 2%;
 	
 }
 
@@ -92,15 +93,15 @@ table,th,td{
 
 }
 td{
-	padding: 12px;
+	padding: 3%;
 }
 
 img{
 	display: float;
 	float: left;
-	padding: 6px 25px 2px 4px;
-	margin-bottom: 50px;
-	margin-top: 20px;
+	padding: 2% 1% 2% 1%;
+	margin-bottom: 4%;
+	margin-top: 2%;
 
 }
 
@@ -121,9 +122,9 @@ div#contact-content div#contactt{
 	border-width: 20px;
 	border-style: double;
 	border-color: #501F3A;
-	margin-left: 200px;
-	margin-right: 200px;
-	padding: 30px;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding: 3%;
 
 }
 
@@ -139,11 +140,12 @@ div#project-list li{
 div#about-content img{
 	display: float;
 	float: left;
-	padding: 6px 25px 2px 4px;
+	padding: 2% 2% 1% 0.5%;
+	/*	top right bottom left*/
 	margin: 0px;
 
 }
 
 div#foot{
-	margin: 60px;
+	margin: 2%;
 }
