@@ -1,6 +1,7 @@
 body{
 	background-color: #CCCCCC;
 	font-size: 150%;
+	min-width: 1050px;
 }
 
 p{
