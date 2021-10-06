@@ -156,27 +156,32 @@ div#foot{
 .game-image-1{
 	width: 34%; 
 	height: 350px;
+	border-radius: 19%;
 }
 
 .my-pic{
  	height: 550px;
  	width: 25%; 
+border-radius: 3%;
 
 }
 
 .game-image-2{
 	width: 34%; 
 	height: 350px;
+	border-radius: 19%;
 }
 
 .vertical-game{
 	width: 20%; 
 	height: 350px;
+	border-radius: 19%;
 }
 
 .college-pic{
 	height: 600px;
 	width: 45%; 
+	border-radius: 19%;
 }
 
 
