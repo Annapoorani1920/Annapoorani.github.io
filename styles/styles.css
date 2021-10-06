@@ -103,7 +103,6 @@ img{
 	margin-bottom: 4%;
 	margin-top: 2%;
 	border-radius: 19%;
-
 }
 
 ol #contact-list{
@@ -179,7 +178,7 @@ div#foot{
 
 
 @media only screen and (max-width: 768px) {
-  [class*="my-"] {
+  [class*="my-"]{
     width: 100%;
     max-width: 100%;
     align-content: center;
