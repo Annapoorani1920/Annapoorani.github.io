@@ -13,6 +13,7 @@ nav.addEventListener('click',(e)=>{
 		
 		to_show=document.getElementById(x+"-content");
 		to_show.style.display='block';	
+		window.scrollTo(0,30);
 	}
 	
 	
@@ -34,7 +35,7 @@ function showTime(){
 
 function func(){
 	date=new Date();
-	y=Intl.DateTimeFormat().resolvedOptions().timeZone;
+	var y=Intl.DateTimeFormat().resolvedOptions().timeZone;
 	date=date.toLocaleString('en-US', { timeZone: y })
 	footer.innerHTML=y+" "+date;
 	showTime();
