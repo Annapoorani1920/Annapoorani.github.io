@@ -178,7 +178,7 @@ div#foot{
 
 
 @media only screen and (max-width: 768px) {
-  [class*="my-"]{
+  [class*="my-"] {
     width: 100%;
     max-width: 100%;
     align-content: center;
