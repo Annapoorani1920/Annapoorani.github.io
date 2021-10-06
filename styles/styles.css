@@ -150,7 +150,7 @@ div#foot{
 	margin: 2%;
 }
 
-.game-image-1{
+.my-game-image-1{
 	width: 34%; 
 	height: 350px;
 }
@@ -161,17 +161,17 @@ div#foot{
 
 }
 
-.game-image-2{
+.my-game-image-2{
 	width: 34%; 
 	height: 350px;
 }
 
-.vertical-game{
+.my-vertical-game{
 	width: 20%; 
 	height: 350px;
 }
 
-.college-pic{
+.my-college-pic{
 	height: 600px;
 	width: 45%; 
 }
