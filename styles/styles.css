@@ -149,3 +149,19 @@ div#about-content img{
 div#foot{
 	margin: 2%;
 }
+
+.game-image{
+	width: 34%; 
+	height: 350px;
+}
+
+.vertical-game{
+	width: 20%; 
+	height: 350px;
+}
+
+@media only screen and (max-width: 480px) {
+  img {
+    width: 100%;
+  }
+}
