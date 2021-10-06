@@ -176,11 +176,18 @@ div#foot{
 	width: 45%; 
 }
 
+
 @media only screen and (max-width: 700px) {
   img {
     width: 100%;
     max-width: 100%;
     align-content: center;
-    float: none;
+  }
+
+  .my-pic{
+  	width: 100%;
+    max-width: 100%;
+    align-content: center;
   }
 }
+
