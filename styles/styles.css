@@ -58,7 +58,6 @@ center{
 	color:  #501F3A;
 
 }
-
 ul li{	
 	float: left;
 	width: 74%;
@@ -68,7 +67,7 @@ ul li{
 	text-align: left;
 	background-color: #0F292F ;
 	font-family: 'Indie Flower',cursive;
-	list-style-type: none;
+	list-style-type: disc;
 
 }
 
@@ -104,6 +103,8 @@ img{
 	padding: 2% 1% 2% 1%;
 	margin-bottom: 4%;
 	margin-top: 2%;
+	border-radius: 19%;
+
 
 }
 
@@ -155,42 +156,35 @@ div#foot{
 .game-image-1{
 	width: 34%; 
 	height: 350px;
-	border-radius: 19%;
 }
 
 .my-pic{
  	height: 550px;
  	width: 25%; 
-border-radius: 3%;
 
 }
 
 .game-image-2{
 	width: 34%; 
 	height: 350px;
-	border-radius: 19%;
 }
 
 .vertical-game{
 	width: 20%; 
 	height: 350px;
-	border-radius: 19%;
 }
 
 .college-pic{
 	height: 600px;
 	width: 45%; 
-	border-radius: 19%;
 }
 
-
 @media only screen and (max-width: 768px) {
-  [class*="my-"]{
+  img {
     width: 100%;
     max-width: 100%;
     align-content: center;
   }
 
+
 }
-
-
