@@ -13,7 +13,7 @@ nav.addEventListener('click',(e)=>{
 		
 		to_show=document.getElementById(x+"-content");
 		to_show.style.display='block';	
-		window.scrollTo(0,30);
+		window.scrollTo(0,0);
 	}
 	
 	
