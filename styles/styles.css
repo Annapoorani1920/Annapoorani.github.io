@@ -67,7 +67,7 @@ ul li{
 	text-align: left;
 	background-color: #0F292F ;
 	font-family: 'Indie Flower',cursive;
-	list-style-type: disc;
+	list-style-type: none;
 
 }
 
@@ -91,10 +91,15 @@ table,th,td{
 	border: 8px dotted #CB2D6F;
 	background-color: #0F292F;
 	color: #CCCCCC;
-
+	border-bottom: none;
+	border-right: none;
 }
 td{
 	padding: 3%;
+}
+table{
+	border-top:none ;
+	border-left: none;
 }
 
 img{
@@ -161,6 +166,9 @@ div#foot{
 .my-pic{
  	height: 550px;
  	width: 25%; 
+ 	border-radius:0 ;
+ 	border-top-right-radius: 12%;
+ 	border-bottom-left-radius: 12%;
 
 }
 
